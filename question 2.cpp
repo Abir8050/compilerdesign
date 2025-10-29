@@ -13,7 +13,6 @@ int main() {
     for (int i = 0; i < input.length(); i++) {
         char ch = input[i];
 
-        // চেক করছি অক্ষরটা operator কিনা
         if (ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '%' || ch == '=') {
             count++;
             cout << "operator" << count << ":  " << ch << endl;
@@ -25,3 +24,4 @@ int main() {
 
     return 0;
 }
+
